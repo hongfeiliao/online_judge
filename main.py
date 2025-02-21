@@ -1,6 +1,9 @@
 from fastapi import FastAPI
+from apps.test_app.urls import test_app
 
 app = FastAPI()
+
+app.include_router(test_app, prefix='/test_app', tags=['test_app'])
 
 @app.get('/')
 async def root():
