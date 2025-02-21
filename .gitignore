@@ -1,7 +1,7 @@
 # Mine: lhf
-.db
-.sqlite3
-.sqlite
+*.db
+*.sqlite3
+*.sqlite
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
